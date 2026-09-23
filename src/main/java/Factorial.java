@@ -1,6 +1,8 @@
 public class Factorial {
 
     public static long calculate(int n) {
+        //throw exception
+        
 
         if (n < 0) {
             throw new IllegalArgumentException("Negative number");
